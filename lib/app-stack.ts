@@ -22,6 +22,6 @@ export class AppStack extends cdk.Stack {
     fn.addEnvironment('AWS_LAMBDA_EXEC_WRAPPER', '/opt/trend_app_protect');
     fn.addEnvironment('TREND_AP_HELLO_URL', 'https://agents.jp-1.application.cloudone.trendmicro.com/');
     fn.addEnvironment('TREND_AP_KEY', 'bedb1cc6-3977-4fed-8ef4-9822d77858de');
-    fn.addEnvironment('TREND_AP_SECRET', '앞서c682b84c-78c5-4b0f-8234-658b8d7403ad');
+    fn.addEnvironment('TREND_AP_SECRET', 'c682b84c-78c5-4b0f-8234-658b8d7403ad');
   }
 }
